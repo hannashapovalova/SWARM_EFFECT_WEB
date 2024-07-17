@@ -39,4 +39,15 @@ nav ul li a:hover {
   color: #ff0000; 
 }
 
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 
