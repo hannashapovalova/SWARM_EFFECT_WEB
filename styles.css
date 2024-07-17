@@ -157,6 +157,7 @@ main {
 .logo-link:hover {
   transform: scale(1.1); 
   background-color: var(--main-red); 
+  border: none; 
 }
 
 /* .spotify-logo, .apple-music-logo {
@@ -203,7 +204,7 @@ color: black;
 }
 
 .social-navbar a:hover {
-  transform: scale(1.8);
+  transform: scale(1.5);
 }
 
 .social-navbar i {
