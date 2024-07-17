@@ -34,7 +34,7 @@ header {
 }
 
 nav {
-  margin-bottom: 20px;
+  margin: 15px 0;
 }
 
 nav ul {
@@ -78,7 +78,7 @@ main {
 .band-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /
+  object-fit: cover; 
 }
 
 /* .logo-image {
@@ -89,27 +89,69 @@ main {
   height: auto;
 } */
 
+
+
+
+
+
+
 .right-section {
   width: 35%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
-.coming-soon {
-  font-size: 4.9rem;
-  font-weight: bold;
 
+.coming-soon {
+  font-size: 5.9rem;
+  font-weight: bold;
+  line-height: 1.2;
+  opacity: 0;
+  animation: flyInFromRight 1s ease-in-out forwards;
+}
+
+@keyframes flyInFromRight {
+  0% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.ep-word {
+  animation-delay: 0s;
+}
+
+.coming-word {
+  animation-delay: 0.2s;
+}
+
+.soon-word {
+  animation-delay: 0.4s;
 }
 
 .ep-image {
-  width: 200px; 
+  width: 200px;
   height: auto;
+  margin-top: 20px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .spotify-logo, .apple-music-logo {
-max-width: 100px;
+  max-width: 100px;
+  height: auto;
 }
 
 /* FOOTER */
