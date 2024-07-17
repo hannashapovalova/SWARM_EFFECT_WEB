@@ -106,7 +106,7 @@ main {
 
 
 .coming-soon {
-  font-size: 5.9rem;
+  font-size: 2.9rem;
   font-weight: bold;
   line-height: 1.2;
   opacity: 0;
@@ -126,6 +126,7 @@ main {
 
 .ep-word {
   animation-delay: 0s;
+  margin-left: 0;
 }
 
 .coming-word {
@@ -137,7 +138,7 @@ main {
 }
 
 .ep-image {
-  width: 200px;
+  width: 400px;
   height: auto;
   margin-top: 20px;
 }
@@ -146,7 +147,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .spotify-logo, .apple-music-logo {
