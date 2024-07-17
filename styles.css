@@ -239,10 +239,11 @@ footer {
   font-weight: bold;
   line-height: 1.2;
   opacity: 0;
-  animation: flyInFromRight 1s ease-in-out forwards;
+  animation: flyInFromRight 1.5s ease-in-out forwards;
   text-align: center;
-  position: relative; 
-  transform: translateX(100vw);
+  position: absolute;
+  right: 50%; 
+  transform: translateX(50%);
 }
 
 @keyframes flyInFromRight {
