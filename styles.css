@@ -65,7 +65,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
   height: 100vh; 
 }
 
@@ -94,11 +94,22 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.coming-soon {
+  font-size: 4.9rem;
+  font-weight: bold;
+
 }
 
 .ep-image {
-  width: 100px; 
+  width: 200px; 
   height: auto;
+}
+
+.spotify-logo, .apple-music-logo {
+max-width: 100px;
 }
 
 /* FOOTER */
