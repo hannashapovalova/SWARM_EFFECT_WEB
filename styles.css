@@ -232,4 +232,28 @@ footer {
   bottom: 0;
 }
 
+/* VIDEO PAGE */
+
+.video-soon {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  opacity: 0;
+  animation: flyInFromRight 1s ease-in-out forwards;
+  text-align: center;
+  position: relative; 
+  transform: translateX(100vw);
+}
+
+@keyframes flyInFromRight {
+  0% {
+    transform: translateX(100vw); 
+    opacity: 0; 
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+}
+
 
