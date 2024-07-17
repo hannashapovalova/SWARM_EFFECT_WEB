@@ -199,6 +199,11 @@ color: black;
 .social-navbar a {
   margin: 10px 0;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.social-navbar a:hover {
+  transform: scale(1.8);
 }
 
 .social-navbar i {
