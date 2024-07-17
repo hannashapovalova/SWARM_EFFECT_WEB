@@ -67,6 +67,8 @@ main {
   height: 100vh; 
 }
 
+/* LEFT SECTION */
+
 .left-section {
   position: relative;
   width: 60%;
@@ -87,6 +89,8 @@ main {
   height: auto;
 } */
 
+/* RIGHT SECTION */
+
 .right-section {
   width: 35%;
   display: flex;
@@ -96,7 +100,6 @@ main {
   position: relative;
   margin-right: 40px;
 }
-
 
 .coming-soon {
   font-size: 2.9rem;
@@ -181,6 +184,8 @@ color: black;
   margin: 0; 
 }
 
+/* SOCIAL MEDIA NAVBAR */
+
 .social-navbar {
   position: fixed;
   right: 0;
@@ -215,6 +220,7 @@ color: black;
 }
 
 /* FOOTER */
+
 footer {
   background-color: black;
   color: var(--main-white); 
