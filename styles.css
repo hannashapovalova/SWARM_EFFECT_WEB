@@ -81,13 +81,13 @@ main {
   object-fit: cover; /
 }
 
-.logo-image {
+/* .logo-image {
   position: absolute;
   top: 20px;
   right: 20px;
   width: 150px; 
   height: auto;
-}
+} */
 
 .right-section {
   width: 35%;
