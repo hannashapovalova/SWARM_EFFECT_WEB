@@ -86,6 +86,10 @@ nav ul.active li {
   margin: 20px 0;
 }
 
+nav ul li a.active {
+  color: var(--main-red); 
+}
+
 @keyframes slideIn {
   from {
     transform: translateY(-100%);
