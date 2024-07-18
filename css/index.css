@@ -122,7 +122,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 0;
   min-height: 100vh;
 }
 
@@ -322,6 +322,10 @@ footer {
   .left-section,
   .right-section {
     width: 100%;
+  }
+
+  .right-section {
+    margin-bottom: 50px;
   }
 
   .logos {

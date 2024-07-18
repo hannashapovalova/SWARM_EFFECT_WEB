@@ -257,6 +257,12 @@ footer {
   .social-navbar a {
     margin: 0 10px;
   }
+  .contact-container {
+    max-width: 800px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) {
