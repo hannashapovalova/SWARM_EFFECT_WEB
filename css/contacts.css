@@ -18,7 +18,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   background-color: var(--main-white); 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* NAVBAR */
@@ -33,12 +33,16 @@ header {
   width: 100%;
   text-align: center;
   z-index: 1000; 
+  display: flex;
+  justify-content: center;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px; 
+  width: 100%; 
 }
 
 nav ul {
@@ -108,7 +112,6 @@ nav ul.active li {
   height: 3px;
   background-color: var(--main-white);
 }
-
 
 /* SOCIAL MEDIA NAVBAR */
 
@@ -190,8 +193,6 @@ footer {
 
 /* MEDIA QUERIES */
 
-/* MEDIA QUERIES */
-
 @media (max-width: 768px) {
   .burger-menu {
     display: flex;
@@ -251,5 +252,11 @@ footer {
 
   .social-navbar a {
     margin: 0 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    justify-content: center; 
   }
 }
