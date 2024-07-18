@@ -330,6 +330,7 @@ footer {
 
   .logos {
     flex-direction: column;
+    margin-top: 30px;
   }
 
   .logo-link {
