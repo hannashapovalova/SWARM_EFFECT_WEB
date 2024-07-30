@@ -17,8 +17,16 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
-  background-color: var(--main-white); 
+  background-color: var(--dark-font); 
   /* overflow: hidden; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
 }
 
 /* NAVBAR */
@@ -167,7 +175,7 @@ footer {
 
 /* VIDEO PAGE */
 
-.video-soon {
+/* .video-soon {
   font-size: 5rem;
   font-weight: bold;
   line-height: 1.2;
@@ -179,7 +187,20 @@ footer {
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
+} */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 0; 
 }
+
+.video-container iframe {
+  width: 560px; 
+  height: 315px; 
+  max-width: 100%; 
+}
+
 
 @keyframes flyInAndOut {
   0% {
