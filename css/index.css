@@ -206,6 +206,7 @@ main {
 .logo-link {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none; 
   color: var(--main-black);
   border: 2px solid var(--main-black); 
@@ -223,17 +224,15 @@ main {
 
 .spotify-logo, .apple-music-logo {
   font-size: 2rem; 
-  margin-right: 10px; 
+  /* margin-right: 10px;  */
 }
 
 .spotify-apple-logo-text {
 text-decoration: none;
 color: var(--main-black);
+margin: 0 0 0 10px; 
 }
 
-.spotify-apple-logo-text {
-  margin: 0; 
-}
 
 /* SOCIAL MEDIA NAVBAR */
 
@@ -335,6 +334,11 @@ footer {
 
   .logo-link {
     margin: 10px 0;
+  }
+
+  .spotify-logo, .apple-music-logo {
+    margin-right: 0; /* Додано */
+    margin-bottom: 5px; /* Додано */
   }
 
   .social-navbar {
