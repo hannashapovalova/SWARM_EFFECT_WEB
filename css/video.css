@@ -160,6 +160,12 @@ nav ul li a.active {
   text-align: center;
 }
 
+/* MAIN */
+
+iframe {
+  padding: 20px;
+}
+
 /* FOOTER */
 
 footer {
@@ -286,6 +292,16 @@ footer {
 
   .video-soon {
     font-size: 2rem;
+  }
+
+  .video-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  iframe {
+    padding: 10px;
   }
 }
 
