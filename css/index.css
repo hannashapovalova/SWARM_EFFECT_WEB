@@ -138,19 +138,6 @@ color: var(--main-black);
 margin: 0 0 0 10px; 
 }
 
-/* FOOTER */
-
-footer {
-  background-color: var(--main-black);
-  color: var(--main-white); 
-  text-align: center;
-  font-size: 0.8rem;
-  padding: 10px;
-  position: fixed; 
-  width: 100%;
-  bottom: 0;
-}
-
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {

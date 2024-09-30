@@ -1,0 +1,10 @@
+footer {
+  background-color: var(--main-black);
+  color: var(--main-white); 
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px;
+  position: fixed; 
+  width: 100%;
+  bottom: 0;
+}
