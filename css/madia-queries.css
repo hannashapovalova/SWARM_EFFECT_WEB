@@ -30,6 +30,11 @@
     align-items: center;
     height: auto;
     margin-top: 60px;
+    min-height: 100vh;
+  }
+
+  .container {
+    padding: 30px;
   }
 
   .left-section,
@@ -67,6 +72,14 @@
 
   .social-navbar a {
     margin: 0 10px;
+  }
+
+  .video-container {
+    flex-direction: column-reverse;
+  }
+
+  .contact-container {
+    margin: 150px auto;
   }
 }
 
