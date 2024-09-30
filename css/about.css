@@ -21,41 +21,6 @@ body {
   /* overflow: hidden; */
 }
 
-/* SOCIAL MEDIA NAVBAR */
-
-.social-navbar {
-  position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: var(--main-red); 
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 300px; 
-  width: 60px; 
-  z-index: 1000;
-}
-
-.social-navbar a {
-  margin: 10px 0;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.social-navbar a:hover {
-  transform: scale(1.5);
-}
-
-.social-navbar i {
-  width: 40px; 
-  height: auto;
-  color: var(--main-white); 
-  text-align: center;
-}
-
 /* FOOTER */
 
 footer {
